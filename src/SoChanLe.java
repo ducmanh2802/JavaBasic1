@@ -6,5 +6,7 @@ public class SoChanLe {
         System.out.println("Nhập vào một số:");
         double soChanLe = scanner.nextDouble();
         System.out.println(soChanLe%2 == 0 ? "Số đã cho là số chẵn.": "Số đã cho là số lẻ.");
+        scanner.close();
+
     }
 }

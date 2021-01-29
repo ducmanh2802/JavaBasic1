@@ -9,5 +9,6 @@ public class TinhChuViDienTich {
             System.out.println("Số đã cho ko phải là bán kính, hãy nhập lại");
         }
         System.out.println("Chu vi hình tròn: " + 2*Math.PI*banKinh + "\nDiện tích hình tròn:" + Math.PI*Math.pow(banKinh, 2));
+        scanner.close();
     }
 }

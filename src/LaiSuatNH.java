@@ -8,5 +8,6 @@ public class LaiSuatNH {
         System.out.println("Nhập vào lãi suất năm theo phần trăm(VD: 12% -> 0.12):");
         double laiSuat = scanner.nextDouble();
         System.out.println("Tiền lãi hàng tháng: " + tienLai*laiSuat/12 +"\nTiền phải trả hàng tháng" +(tienLai*laiSuat/12 + tienLai/12));
+        scanner.close();
     }
 }
